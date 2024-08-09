@@ -174,7 +174,7 @@ const ChatInterface = () => {
           ) : (
             <span className="sm:flex hidden mt-6 mx-2">
               <button className="h-10 rounded-lg px-2 text-token-text-secondary focus-visible:outline-0 hover:bg-token-sidebar-surface-secondary focus-visible:bg-token-sidebar-surface-secondary" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
-                <PanelRightOpen className="w-6 h-6" />
+                <PanelRightOpen className="w-5 h-5" />
               </button>
             </span>
           )
