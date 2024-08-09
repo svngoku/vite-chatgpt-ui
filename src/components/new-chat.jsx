@@ -31,7 +31,7 @@ export default function NewChat({
   const [isNewChat, isNewChatSet] = React.useState(false);
   const [chatPrompts, setChatPrompts] = React.useState([{
     icon: <Brain className="h-4 w-4 transition duration-300 ease-in data-[closed]:opacity-0 text-green-400" />,
-    prompt: "Think a strory on a brain waching for the stars.",
+    prompt: "Think a strory on a brain Washing for the stars.",
     color: "green-300"
   }, {
     icon: <Lamp className="h-4 w-4 transition duration-300 ease-in data-[closed]:opacity-0 text-blue-400" />,
